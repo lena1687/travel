@@ -389,8 +389,14 @@ margin-right: 40px;
 	background: url(img/about-bg.png) center no-repeat;
 	height: 707px;
 	margin-top: -38px;
+	float: left;
+	width: 850px;
+}
+#about {
+	background-color: rgba(158, 158, 158, 0.11);
 }
 .about-content {
+	width: 850px;
 	padding-top: 145px;
 }
 .about-content .main-heading {
@@ -478,6 +484,36 @@ margin-right: 40px;
 .journal-three .text {
 	margin-left: 0px;
 }
+
+/*work*/
+
+.work-one {
+	height: 930px;
+	float: left;
+	width: 850px;
+}
+.numbers {
+	text-align: center;
+	margin-top: 55px;
+}
+.numbers span {
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px 15px;
+	color: #70c5f0;
+	border-radius: 20px;
+	border: 2px solid #70c5f0;
+	margin-right: 150px;
+}
+.numbers span:last-child {
+	margin-right: 0;
+}
+
+
+
+
+
+
 
 
 /*
