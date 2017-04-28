@@ -23,7 +23,11 @@
             <?php wp_nav_menu(array('menu'=>'top-menu', 'menu_class' => 'top-menu')); ?>
           <!-- Функция wp_nav_menu отобразит меню с именем «top-menu» и классом «top-menu» -->
           </nav>
-    		</section>
+          <form class="searchform" method="GET" name="search" action="<?php echo home_url('/'); ?>"> <!-- Возвращает УРЛ главной страницы сайта -->
+      		  <input class="input" type="text" name="s" value="<?php echo get_search_query(); ?>" placeholder="<?php echo _('Search'); ?>">
+            <button class="button-form" type="submit"><?php echo _('GO'); ?></button>
+          </form>
+        </section>
     		<section class="middle-header">
           <img src="<?php bloginfo('template_url'); ?>/img/header-tl.png" alt="tagline">
           <p><?php echo _('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed<br> do eiusmod tempor incidid'); ?></p>
