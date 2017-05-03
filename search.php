@@ -21,7 +21,7 @@
 	<?php endwhile; ?>
 	<!-- post navigation -->
 	<?php else: ?>
-	<p class="zero"><?php echo _('Ничего не найдено.'); ?></p>
+	<p class="zero"><?php echo _('Ничего не найдено'); ?></p>
 	<?php endif; ?>
 </div>
 </section>
